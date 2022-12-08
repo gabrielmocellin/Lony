@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Rubik', sans-serif; */
+
+
+*{
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+
+body{
+    height: 100vh; width: 100vw;
+}
+
+main{
+    height:90%; width: 100%;
+    display:flex; justify-content: center; align-items: center;
+    background-color: #020126;
+}
+
+form{
+    height:100%; width:100%;
+    display:flex; justify-content: center; align-items: center;
+    background-color: #020126;
+}
+
+main form ul{
+    height:60vh; width:40vw;
+    display:flex; justify-content: center; align-items: center; flex-direction: column;
+    list-style:none;
+    background-color: #f8cf2c;
+    border-radius: 10px;
+}
+
+main form ul li{
+    height: 15%; width: 75%;
+    display:flex; justify-content: center; align-items: center;
+    font-size:4vh; color:#020126; font-family: 'Rubik', sans-serif; font-weight: bold;
+    justify-content: space-between;
+}
+
+/* Titulo da página LOGIN */
+#titulo_login_li{
+    height: 20%; width:100%;
+    display:flex; justify-content: center; align-items: center;
+    margin: 0 0 5% 0;
+}
+
+#titulo_login_li h1{
+    font-size:3.5vw;
+}
+
+main form ul li input{
+    font-size:1vw;
+    height:35%; width: 65%;
+    background-color: #cccccc;
+    border:none;
+    outline: none;
+}
+
+/* Edição do botão de login */
+#button_login_li{
+    margin: 5% 0 0 0;
+    display:flex; justify-content: center; align-items: center;
+}
+
+main form ul li button{
+    height:50%; width:60%;
+    border: none; text-decoration: none;
+    font-size: 1vw; font-family: 'Oswald', sans-serif; color: #020126; font-weight: bold;
+    background-color: #fac400; box-shadow: #020126 0px 2px 2px;
+}
+
+main form ul li button:hover{
+    background-color: #ecb902;
+}
+
+/* Edição footer Login */
+footer{
+    height:10%; width: 100%;
+    display:flex; justify-content: center; align-items: center;
+    background-color: #f8cf2c;
+}
+
+footer p{
+    display:flex; justify-content: center; align-items: center;
+    font-size: 2.4vh; font-family: 'Oswald', sans-serif;
+}
