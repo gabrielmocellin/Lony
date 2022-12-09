@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
+
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: #020126;
     color: white;
@@ -187,6 +191,38 @@ footer {
     border-radius: 10px;
 }
 
-logo-footer {
+.logo-footer {
+    padding: 15px;
+}
+
+.img-footer {
+    width: 5%;
+    height: 5%;
+}
+
+.images-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.text-footer {
+    text-align: center;
+}
+
+.images-footer2 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.registered {
     padding: 15px;
 }
