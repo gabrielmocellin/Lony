@@ -2,8 +2,9 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Lony</title>
+    <title>Lony | Login</title>
     <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="img/Lony.png" type="image/x-icon">
 </head>
 <body>
     <main>

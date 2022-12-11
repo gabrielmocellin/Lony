@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+body{
+    height:100vh;width:100vw; 
+    background-color: #020126;
+    color: white;
+    font-family: Rubik, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height:10%; width:100%;
+    display: flex; flex-direction: row;
+}
+
+ul{
+    display:flex; flex-direction: row; justify-content: center; align-items: center;
+    list-style: none;
+    width:85%; height:100%;
+}
+
+li {
+    display:flex; align-items: center; justify-content: center;
+    width:20%; height:100%;
+    margin: 0 2% 0 2%;
+    text-decoration: none;
+    color: white;
+    font-size:2vh;
+}
+
+/* Edição do botão de cadastro na nav bar */
+.anchor-sign {
+    display:flex; align-items: center; justify-content: center;
+    height:30%; width:100%;
+    color:white;
+    text-decoration: none;
+    border: #f8cf2c solid 2px;
+    border-radius: 10px;
+}
+
+.anchor-sign:hover {
+    border: #f3a42d solid 2px;
+}
+
+/* Edição da LOGO (Lony) na nav bar */
+h1.logo-1 {
+    display:flex; align-items: center; justify-content: center;
+    width: 15%; height:100%;
+    cursor: pointer;
+    font-size:4vh;
+}
+
+.yellow-span{
+    color: #f8cf2c;
+    display: flex; justify-content: center; align-items: center;
+    height:100%;
+}
+
+.orange-span{
+    color:#ff7a00;
+    display: flex; justify-content: center; align-items: center;
+    height:100%;
+}
+
+/* Edição da barra de pesquisa na nav bar */
+#pesquisar-input{
+    border-radius:5%; outline: none; border:none;
+    font-size:2vh;
+    width:100%;
+}
