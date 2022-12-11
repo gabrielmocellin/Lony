@@ -28,7 +28,7 @@ main form ul{
     height:70vh; width:40vw;
     display:flex; justify-content: center; align-items: center; flex-direction: column;
     list-style:none;
-    background-color: #f8cf2c;
+    background-image: linear-gradient(#f8cf2c, orange);
     border-radius: 10px;
 }
 
@@ -36,7 +36,6 @@ main form ul li{
     height: 15%; width: 75%;
     display:flex; justify-content: center; align-items: center;
     font-size:3.5vh; color:#020126; font-family: 'Rubik', sans-serif; font-weight: bold;
-    justify-content: space-between;
 }
 
 /* Titulo da página REGISTRO */
@@ -51,11 +50,10 @@ main form ul li{
 }
 
 main form ul li input{
-    font-size:1vw;
     height:35%; width: 65%;
-    background-color: #cccccc;
-    border:none;
-    outline: none;
+    outline: none; border:none; border-radius: 5px;
+    background-color: #eeeeee; font-family: 'Rubik', sans-serif; font-weight: bold; font-size:1vw;
+    padding: 0 0 0 10px;
 }
 
 /* Edição do botão de REGISTRO */

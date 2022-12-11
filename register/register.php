@@ -10,11 +10,11 @@
         <form method='POST' action='exe/register_exe.php'>
             <ul>
                 <li id='titulo_registro_li'><h1>Registro</h1></li>
-                <li>Apelido:<input name='apelido_input' type='text' required></li>
-                <li>Email:<input name='email_input' type='email' required></li>
-                <li>Senha:<input name='senha_input' type='password' required></li>
-                <li>Confirmar:<input name='confirmar_senha_input' type='password' required></li>
-                <li>Nascimento:<input name='nascimento_input' type='date' required></li>
+                <li><input name='apelido_input' type='text' placeholder='Apelido:' required></li>
+                <li><input name='email_input' type='email' placeholder='Email:' required></li>
+                <li><input name='senha_input' type='password' placeholder='Senha:' required></li>
+                <li><input name='confirmar_senha_input' type='password' placeholder='Confirmar:' required></li>
+                <li><input name='nascimento_input' type='date' placeholder='Nascimento:' required></li>
                 <li id='button_registro_li'><button>Registrar</button></li>
             </ul>
         </form>
