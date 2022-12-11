@@ -33,6 +33,22 @@
                 <img class='del_img' src='midia/del_icon.png'>
             </div>
         </div>
+        <div class='msc_pesq_div'>
+            <div class='msc_pesq_infos_div_left'>
+                <div class='msc_pesq_img_div'>
+                    <img class='msc_pesq_img' src='midia/ispy.jpg'>
+                </div>
+                <h1>Ispy (feat. Lil Yachty)</h1>
+                <h2>KYLE</h2>
+            </div>
+            <div class='msc_pesq_infos_div_right'>
+                <h3>Lançado em: 16/12/2019</h3>
+                <h3>Nome da midia: ispy.mp3</h3>
+            </div>
+            <div class='del_msc_div'>
+                <img class='del_img' src='midia/del_icon.png'>
+            </div>
+        </div>
     </main>
 </body>
 </html>
