@@ -38,7 +38,7 @@
                 <div class='msc_pesq_img_div'>
                     <img class='msc_pesq_img' src='midia/ispy.jpg'>
                 </div>
-                <h1>Ispy (feat. Lil Yachty)</h1>
+                <h1>ISPY (feat. Lil Yachty)</h1>
                 <h2>KYLE</h2>
             </div>
             <div class='msc_pesq_infos_div_right'>
@@ -49,6 +49,7 @@
                 <img class='del_img' src='midia/del_icon.png'>
             </div>
         </div>
+        
     </main>
 </body>
 </html>
