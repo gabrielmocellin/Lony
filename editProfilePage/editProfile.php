@@ -17,9 +17,9 @@
             </ul>
     </header>
     <main>
-        <div class='div-profile'>
+        <div id='div-profile'>
             <div class='div-img'>
-                <img src='../admin/midia/capa_album_dua_lipa.png'>
+                <img src='midia/gb_profilepic.jpg'>
             </div>
             <div class='div-infos'>
                 <h1>
@@ -28,6 +28,42 @@
                 <h2>
                     Olá meu nome é Gabriel Mocellin, faço playlists de POP!
                 </h2>
+            </div>
+        </div>
+        <div id='div-profile-playlists'>
+            <div class='div-playlist'>
+                <div class='div-playlist-img'>
+                    <img class='playlist-img' src='midia/ispy.jpg'>
+                </div>
+                <h1 class='playlist-title'>Só Trap</h1>
+            </div>
+
+            <div class='div-playlist'>
+                <div class='div-playlist-img'>
+                    <img class='playlist-img' src='midia/kendrick.jpg'>
+                </div>
+                <h1 class='playlist-title'>Rap</h1>
+            </div>
+
+            <div class='div-playlist'>
+                <div class='div-playlist-img'>
+                    <img class='playlist-img' src='midia/justin.jpg'>
+                </div>
+                <h1 class='playlist-title'>Melhores do Justin</h1>
+            </div>
+
+            <div class='div-playlist'>
+                <div class='div-playlist-img'>
+                    <img class='playlist-img' src='midia/kidlaroi.jpg'>
+                </div>
+                <h1 class='playlist-title'>Emo Rap 2020</h1>
+            </div>
+
+            <div class='div-playlist'>
+                <div class='div-playlist-img'>
+                    <img class='playlist-img' src='midia/funk.png'>
+                </div>
+                <h1 class='playlist-title'>Só Funk</h1>
             </div>
         </div>
     </main>
