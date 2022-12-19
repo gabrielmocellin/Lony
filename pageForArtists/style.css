@@ -7,14 +7,18 @@
     font-family: Rubik, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    width: 98.7vw;
+    width: 98.1vw;
     height: 100vh;
     background-color: #020126;
 }
 
 main {
-    width: 98.7vw;
+    width: 98.1vw;
     height: 100vh;
 }
 
@@ -79,6 +83,7 @@ h1.logo-1 {
 
 .main-content {
     text-align: center;
+    margin-top: 25%;
 }
 
 .h1-main-content {
@@ -272,4 +277,118 @@ h1.logo-1 {
         transform: translateY(0px);
     }
 
+}
+
+/* CONTATE NOS */
+.ccontainer {
+    max-width: 80%;
+    min-width: 320px;
+    margin: 50px auto;
+    color: white;
+}
+
+.contact-box {
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+}
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+    color: black;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: #1c00b5;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.h1-cont {
+    margin: auto;
+    margin-bottom: -25px;
+    text-align: center;
+    width: 20%;
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+    border-top: 0.4px solid #f8cf2c;
+}
+
+.ccontainer > p {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px; display: block; color: #1c00b5;
+}
+
+.botao-enviar {
+    background-color: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px #3d3a94;
+    cursor: pointer;
+}
+
+.botao-enviar:hover {
+    background-color: #483a9b;
+    transition: 1s;
+}
+
+.contact-left h3 {
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-left h3 {
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+tr td:first-child {
+    padding-right: 20px;
+}
+
+tr td {
+    padding-top: 20px;
+}
+
+.finish {
+    height: 5%;
 }
