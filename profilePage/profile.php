@@ -2,8 +2,8 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Lony | Edit Profile</title>
-    <link rel="stylesheet" href="editProfile.css">
+    <title>Lony | Profile</title>
+    <link rel="stylesheet" href="profile.css">
 </head>
 <body>
     <header class="navegation">
@@ -19,15 +19,18 @@
     <main>
         <div id='div-profile'>
             <div class='div-img'>
-                <img src='midia/gb_profilepic.jpg'>
+                <img src='midia/gb_profilepic.png'>
             </div>
             <div class='div-infos'>
                 <h1>
                     Gb
                 </h1>
                 <h2>
-                    Olá meu nome é Gabriel Mocellin, faço playlists de POP!
+                    Salve rapaziada é o Gb, não tem jeito.
                 </h2>
+                <h3>
+                    Seguidores: 1.2m
+                </h3>
             </div>
         </div>
         <div id='div-profile-playlists'>
@@ -35,36 +38,50 @@
                 <div class='div-playlist-img'>
                     <img class='playlist-img' src='midia/ispy.jpg'>
                 </div>
-                <h1 class='playlist-title'>Só Trap</h1>
+                <h1 class='playlist-title'>
+                    Só Trap
+                </h1>
             </div>
 
             <div class='div-playlist'>
                 <div class='div-playlist-img'>
                     <img class='playlist-img' src='midia/kendrick.jpg'>
                 </div>
-                <h1 class='playlist-title'>Rap</h1>
+                <h1 class='playlist-title'>
+                    Rap
+                </h1>
             </div>
 
             <div class='div-playlist'>
                 <div class='div-playlist-img'>
                     <img class='playlist-img' src='midia/justin.jpg'>
                 </div>
-                <h1 class='playlist-title'>Melhores do Justin</h1>
+                <h1 class='playlist-title'>
+                    Melhores do Justin
+                </h1>
             </div>
 
             <div class='div-playlist'>
                 <div class='div-playlist-img'>
                     <img class='playlist-img' src='midia/kidlaroi.jpg'>
                 </div>
-                <h1 class='playlist-title'>Emo Rap 2020</h1>
+                <h1 class='playlist-title'>
+                    Emo Rap 2020
+                </h1>
             </div>
 
             <div class='div-playlist'>
                 <div class='div-playlist-img'>
                     <img class='playlist-img' src='midia/funk.png'>
                 </div>
-                <h1 class='playlist-title'>Só Funk</h1>
+                <h1 class='playlist-title'>
+                    Só Funk
+                </h1>
             </div>
+        </div>
+        <div id='div-buttons'>
+            <button>Editar Perfil</button>
+            <button>Editar Playlist's</button>
         </div>
     </main>
 </body>
