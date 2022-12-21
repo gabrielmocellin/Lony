@@ -10,77 +10,97 @@
     margin:0 0 0 0;
 }
 
+:root {
+    --cor0: #020126;
+    --cor1: #4741ff83;
+}
+
 body{
     height: 100vh; width: 100vw;
+    background: linear-gradient(0deg, #020126e5, #1e1d51 50%, #020126);
+    color: white;
 }
 
 main{
-    height:90%; width: 100%;
+    height:100%; width:100%;
+    display:flex; justify-content: center; align-items: center;
 }
 
 form{
-    height:100%; width:100%;
-    display:flex; justify-content: center; align-items:center;
-    background-color: #020126;
-}
-
-main form ul{
-    height:70vh; width:40vw;
+    min-height: 550px; min-width: 420px;
+    max-height:80%; max-width:80%;
     display:flex; justify-content: center; align-items: center; flex-direction: column;
-    list-style:none;
-    background-image: linear-gradient(#f8cf2c, orange);
+    border: solid rgba(255, 255, 255, 0.493) 3px;
+    padding: 50px;
     border-radius: 10px;
 }
 
-main form ul li{
-    height: 15%; width: 75%;
-    display:flex; justify-content: center; align-items: center;
-    font-size:3.5vh; color:#020126; font-family: 'Rubik', sans-serif; font-weight: bold;
+#div-img {
+    display:flex; align-items: center; justify-content: center;
+    max-height: 100px; max-width: 100px;
+    border: black solid 5px;
+    border-radius: 100%;
+    background-color: #fefefe;
+    padding: 10px;
 }
 
-/* Titulo da página REGISTRO */
-#titulo_registro_li{
-    height: 20%; width:100%;
-    display:flex; justify-content: center; align-items: center;
-    margin: 0 0 0 0;
+#div-img > img{
+    max-height: 100px; max-width: 100px;
 }
 
-#titulo_registro_li h1{
-    font-size:3vw;
+/* LOGO DO LONY */
+
+form > h1{
+    color:whitesmoke; font-weight: 300; font-family: 'Rubik', sans-serif; font-size: 26px;
+    margin: 15px 0px 15px 0px;
 }
 
-main form ul li input{
-    height:35%; width: 65%;
-    outline: none; border:none; border-radius: 5px;
-    background-color: #eeeeee; font-family: 'Rubik', sans-serif; font-weight: bold; font-size:1vw;
-    padding: 0 0 0 10px;
+form > input{
+    max-width:500px; min-width:350px;
+    min-height:36px; max-height: 40px;
+    margin: 10px 0 10px 0; padding-left: 7px;
+    outline:none; border:none;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif; font-weight: bold;
 }
 
-/* Edição do botão de REGISTRO */
-#button_registro_li{
-    margin: 5% 0 0 0;
-    display:flex; justify-content: center; align-items: center;
+.links-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 120px;
+    text-decoration: none;
+    color: white;
 }
 
-main form ul li button{
-    height:50%; width:60%;
-    border: none; text-decoration: none;
-    font-size: 1vw; font-family: 'Oswald', sans-serif; color: #020126; font-weight: bold;
-    background-color: #fac400; box-shadow: #020126 0px 2px 2px;
+
+.links-form > a{
+    text-decoration: none;
+    color:whitesmoke; font-weight: 300; font-family: 'Rubik', sans-serif; font-size: 15px;
+    margin-top: 25px; margin-bottom: 10px;
+    transition: color ease-in-out 200ms;
+    font-size:16px;
 }
 
-main form ul li button:hover{
-    background-color: #ecb902;
+
+.links-form > a:hover {
+    color: #f1bc0d;
 }
 
-/* Edição footer REGISTRO */
-footer{
-    height:10%; width: 100%;
-    display:flex; justify-content: center; align-items: center;
-    background-color: #f8cf2c;
+button {
+    font-family: 'Rubik', sans-serif; font-size:16px; text-align: center;
+    max-width: 320px; min-width: 250px;
+    max-height: 60px; min-height: 30px;
+    margin: 25px 0px 5px 0px;
+    background-color: #5826a8;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background ease-in-out 200ms;
 }
 
-footer p{
-    display:flex; justify-content: center; align-items: center;
-    font-size: 2.4vh; font-family: 'Oswald', sans-serif;
+button:hover {
+    background-color: #7e4ad1;
 }

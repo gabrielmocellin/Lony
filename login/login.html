@@ -9,13 +9,15 @@
 <body>
     <main>
         <form method='POST' action='exe/login_exe.php'>
-            <h1>Login</h1>
+            <div id='div-img'><img src="img/login_img.png"></div>
+            <h1>Bem-vindo ao <span class='yellow-span'>Lo</span><span class='orange-span'>ny</span></h1>
             <input name='usuario_input' type='email' placeholder='Usuário:' required>
             <input name='senha_input' type='password' placeholder='Senha:' required>
-            <div class="links">
-                <a href='register.php'>Criar Conta</a>
+            <div class="links-form">
+                <a href='register.php'>Criar Nova Conta</a>
                 <a href='forgot.php'>Esqueci a Senha</a>
             </div>
+            <button>Logar</button>
         </form>
     </main>
 </body>
