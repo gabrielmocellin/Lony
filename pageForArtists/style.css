@@ -36,6 +36,10 @@ li {
     display: inline-block;
     margin: 20px;
     text-decoration: none;
+    color: white;
+}
+
+li:hover {
     color: black;
 }
 
@@ -47,16 +51,28 @@ li {
 
 .anchor-sign:hover {
     border: #f3a42d solid 2px;
+    color: black;
 }
 
+/* Edição da LOGO (Lony) na nav bar */
 h1.logo-1 {
-    width: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(to right, #f8cf2c 50%, #ff7a00 50%);
+    display:flex; align-items: center; justify-content: center;
+    width: 15%; height:100%;
     cursor: pointer;
-    font-size: 30px;
-    margin-left: 30px;
+    font-size:4vh;
+    margin-left: 50px;
+}
+
+.yellow-span{
+    color: #f8cf2c;
+    display: flex; justify-content: center; align-items: center;
+    height:100%;
+}
+
+.orange-span{
+    color:#ff7a00;
+    display: flex; justify-content: center; align-items: center;
+    height:100%;
 }
 
 /* CONFIG MAIN-PRINCIPAL */
