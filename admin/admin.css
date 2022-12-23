@@ -86,6 +86,7 @@ h1.logo-1 {
 /* Edição da main (parte principal de resultado de pesquisas)*/
 main{
     height:90%; width:100%;
+    overflow: scroll;
 }
 
 /* Edição música pesquisada [geral] */
