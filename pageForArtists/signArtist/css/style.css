@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Rubik, sans-serif;
+}
+
+/* Edição da LOGO (Lony) na nav bar */
+h1.logo-1 {
+    display:flex; align-items: center; justify-content: center;
+    width: 15%; height:100%;
+    cursor: pointer;
+    font-size:4vh;
+}
+
+.yellow-span{
+    color: #f8cf2c;
+    display: flex; justify-content: center; align-items: center;
+    height:100%;
+}
+
+.orange-span{
+    color:#ff7a00;
+    display: flex; justify-content: center; align-items: center;
+    height:100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px 35px;
+}
+
+
+.link-nav {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+.div-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+/* MAIN */
+
+/* section main */
+
+.section-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+.h1-section {
+    font-size: 55px;
+}
+
+.p-section {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+.section-main2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.div-main {
+    max-width: 50%; min-width: 320px;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 32px
+}
+
+.main-push {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: gray solid 2px;
+    padding: 40px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.main-push:hover {
+    background-color: rgba(99, 94, 94, 0.493);
+    color: white;
+    box-shadow: 4px 4px 4px 0px black;
+    
+}
+
+h2 {
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+img {
+    width: 60%;
+    border-radius: 100%;
+}
+
+.img-artista {
+    height: 74%;
+}
+
+
+/* DIV DOS LINKS */
+
+.link-divs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.link-divs a {
+    color: rgb(228, 228, 228);
+    margin-top: 15px;
+}
+
+.link-divs a:hover {
+    text-decoration: none;
+    color: orange;
+}
