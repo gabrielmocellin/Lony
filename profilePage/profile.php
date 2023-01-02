@@ -6,10 +6,7 @@
     <link rel="stylesheet" href="profile.css">
 </head>
 <body>
-    <header class="navegation">
-            <h1 class="logo-1"><span class='yellow-span'>Lo</span><span class='orange-span'>ny</span></h1>
-            
-    </header>
+    <?php include ('navbar/navbar.html') ?> 
     <main>
         <div id='div-profile'>
             <div class='div-img'>
@@ -74,13 +71,8 @@
                 </h1>
             </div>
         </div>
-
-        <div>
-            <h1 class="titles-main-page">Seguindo os Artistas</h1>BELEZA 👍😎👍
-        </div>
         <div id='div-buttons'>
             <button>Editar Perfil</button>
-            <button>Editar Playlist's</button>
         </div>
     </main>
 </body>
