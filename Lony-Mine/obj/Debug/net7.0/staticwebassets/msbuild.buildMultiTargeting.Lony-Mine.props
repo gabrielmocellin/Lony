@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lony-Mine.props" />
+</Project>

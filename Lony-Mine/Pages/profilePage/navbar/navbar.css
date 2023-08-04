@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+header{
+    display:flex; flex-flow: nowrap row;
+    height:10%; width:100%;
+    justify-content: center;
+}
+
+#logo{
+    margin: 0 0 0 5%;
+    display:flex; flex-flow: nowrap row;
+    align-self:center;
+    width:60%;
+}
+
+.yellow-span{
+    color: #7e4ad1;
+    height:100%;
+}
+
+.orange-span{
+    color:#efefef;
+    height:100%;
+}
+
+#div-botoes{
+    display:flex; flex-flow: nowrap row;
+    height:100%; width:40%;
+    justify-content: space-evenly; 
+    gap: 20px;
+    align-items: center;
+    margin: 0 5% 0 0;
+
+}
+
+#imagem-perfil{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    
+}
+
+#div-botoes > button{
+    height:50px;
+    width:50px;
+    background: #020126;
+    fill: #efefef; 
+    border: none;
+    cursor:pointer;
+}
+
+#div-botoes > #home:hover::after{
+    content: "Home";
+    display:flex; justify-content: center; align-items: center;
+    font-size:16px;
+    color: white;
+    font-weight: bold;
+    font-family: Rubik, sans-serif;
+}
+
+#div-botoes > #amigos:hover::after{
+    content: "Amigos";
+    display:flex; justify-content: center; align-items: center;
+    font-size:16px;
+    color: white;
+    font-weight: bold;
+    font-family: Rubik, sans-serif;
+    text-align: center;
+}
+
+#div-botoes > #notification:hover::after{
+    content: "Notificações";
+    display:flex; justify-content: center; align-items: center;
+    font-size:16px;
+    color: white;
+    font-weight: bold;
+    font-family: Rubik, sans-serif;
+}
+
+#div-botoes > #buscar:hover::after{
+    content: "Buscar";
+    display:flex; justify-content: center; align-items: center;
+    font-size:16px;
+    color: white;
+    font-weight: bold;
+    font-family: Rubik, sans-serif;
+}
+
+#div-botoes > #profile:hover::after{
+    content: "Perfil";
+    display:flex; justify-content: center; align-items: center;
+    font-size:16px;
+    color: white;
+    font-weight: bold;
+    font-family: Rubik, sans-serif;
+}

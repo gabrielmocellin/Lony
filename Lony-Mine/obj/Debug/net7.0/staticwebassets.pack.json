@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\diogo\\OneDrive\\Documentos\\GitHub\\Lony-Mine\\Lony-Mine\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\diogo\\OneDrive\\Documentos\\GitHub\\Lony-Mine\\Lony-Mine\\obj\\Debug\\net7.0\\build-gz\\3SJuzd+H.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\diogo\\OneDrive\\Documentos\\GitHub\\Lony-Mine\\Lony-Mine\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\diogo\\OneDrive\\Documentos\\GitHub\\Lony-Mine\\Lony-Mine\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Lony-Mine.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Lony-Mine.props",
+      "PackagePath": "build\\Lony-Mine.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Lony-Mine.props",
+      "PackagePath": "buildMultiTargeting\\Lony-Mine.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Lony-Mine.props",
+      "PackagePath": "buildTransitive\\Lony-Mine.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
